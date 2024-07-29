@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#48426D</color>
+    <color name="buttonColorGreen">#86FFB3</color>
+    <color name="widgetColor">#312C51</color>
+    <color name="cardColor">#F0C38E</color>
+    <color name="attentionColor">#E85334</color>
+</resources>

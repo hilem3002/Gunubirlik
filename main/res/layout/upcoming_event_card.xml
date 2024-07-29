@@ -1,0 +1,97 @@
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/widgetColor"
+    app:cardCornerRadius="20dp"
+    tools:ignore="MissingConstraints"
+    app:cardElevation="3dp"
+    android:id="@+id/upcomingEventCard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="leetcode"
+                android:textColor="@color/cardColor"
+                android:textStyle="bold"
+                android:fontFamily="@font/secular_one"
+                android:textSize="12sp"
+                android:id="@+id/upcomingEventName"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@color/cardColor"
+                android:textStyle="bold"
+                android:fontFamily="@font/secular_one"
+                android:textSize="16sp"
+                android:id="@+id/upcomingEventStart"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  -  "
+                android:textColor="@color/cardColor"
+                android:textStyle="bold"
+                android:fontFamily="@font/secular_one"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textColor="@color/cardColor"
+                android:textStyle="bold"
+                android:fontFamily="@font/secular_one"
+                android:textSize="16sp"
+                android:layout_marginEnd="20dp"
+                android:id="@+id/upcomingEventEnd"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_close_24"
+                android:clickable="true"
+                android:id="@+id/deleteEvent"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0aaaaaaaaaaaaaaaaaaaaaaaav mrv le rvme ömv röve ömrv evmre ömv öer öev mö"
+            android:textColor="@color/white"
+            android:id="@+id/upcomingEventDescription"
+            android:visibility="gone"
+            android:fontFamily="@font/secular_one"
+            android:textSize="12sp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
